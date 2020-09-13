@@ -8,6 +8,7 @@ body{
 }
 
 .logo{
+    display: inline-block;
     width: 220px;
     height: 47px;
     padding-top: 13px;
@@ -17,3 +18,42 @@ body{
     text-align: center;
 }
 
+.search::before {
+    width: 11px;
+    height: 11px;
+    content: url('../img/icon-search.svg');
+    padding-right: 5px;
+}
+
+.bookmarks::before {
+    width: 14px;
+    height: 16px;
+    content: url('../img/bookmarks.svg');
+    padding-right: 5px;
+
+}
+
+.cart::before {
+    width: 15px;
+    height: 11px;
+    content: url('../img/icon-cart.svg');
+    padding-right: 5px;
+
+}
+
+
+.phone a::before {
+    width: 18px;
+    height: 19px;
+    content: url('../img/icon-phone.svg');
+    padding-right: 5px;
+
+}
+
+.enter::before {
+    width: 18px;
+    height: 19px;
+    content: url('../img/icon-login.svg');
+    padding-right: 5px;
+
+}
