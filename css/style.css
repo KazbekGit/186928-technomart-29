@@ -1,0 +1,19 @@
+body{
+    background: #ddcdcd;
+    font-family: cuprum, Arial, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.logo{
+    width: 220px;
+    height: 47px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    background: #EE3643;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+    text-align: center;
+}
+
