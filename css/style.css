@@ -42,7 +42,7 @@ body{
 }
 
 
-.phone a::before {
+.phone::before {
     width: 18px;
     height: 19px;
     content: url('../img/icon-phone.svg');
