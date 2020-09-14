@@ -50,10 +50,56 @@ body{
 
 }
 
-.enter::before {
+.user::before {
     width: 18px;
     height: 19px;
-    content: url('../img/icon-login.svg');
+    content: url('../img/icon-user.svg');
     padding-right: 5px;
 
+}
+
+.catalog::before {
+    width: 18px;
+    height: 19px;
+    content: url('../img/home.svg');
+    padding-right: 5px;
+
+}
+
+.tools::before,
+.perforators::before {
+    width: 7px;
+    height: 10px;
+    content: url('../img/arrowRight.svg');
+    padding-right: 5px;
+
+}
+
+.producers li::before{
+    width: 23px;
+    height: 23px;
+    content: url(../img/checkbox-off.svg);
+    padding-right: 10px;
+}
+
+.producers li:nth-child(1)::before,
+.producers li:nth-child(3)::before{
+    width: 23px;
+    height: 23px;
+    content: url(../img/checkbox-on.svg);
+    padding-right: 10px;
+}
+
+.power li::before{
+    width: 19px;
+    height: 10;
+    content: url(../img/radio-off.svg);
+    padding-right: 10px;
+}
+
+.power li:last-child::before{
+    width: 19px;
+    height: 10;
+    content: url(../img/radio-on.svg);
+    padding-right: 10px;
 }
