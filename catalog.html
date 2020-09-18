@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Каталог</title>
 </head>
 <body>
-  <header>
-    <div class="menu">
-      <a href="blankpage.html" class="logo">
+  <header class="header">
+    <div class="header-menu">
+      <a href="blankpage.html" class="header-logo">
         <img src="/img/logo-technomart.svg" alt="Logo Technomart" width="108" height="18"></a>
-      <a href="blankpage.html" class="search">Поиск:</a>
-      <a href="blankpage.html" class="bookmarks">Закладки:<span> 0</span></a>
-      <a href="blankpage.html" class="cart">Корзина:<span> 10</span></a>
-      <a href="blankpage.html" class="order">Оформить заказ</a>
+      <a href="blankpage.html" class="header-search">Поиск:</a>
+      <a href="blankpage.html" class="header-bookmarks">Закладки:<span> 0</span></a>
+      <a href="blankpage.html" class="header-cart">Корзина:<span> 10</span></a>
+      <a href="blankpage.html" class="header-order">Оформить заказ</a>
     </div>
     </a>
     <p class="site-description">Интернет-магазин
@@ -23,10 +24,10 @@
     </p>
     <a href='tel: 88125550555' class="phone">+7 (812) 555-05-55</a>
     <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-    <a href="blankpage.html" class="user">Равшан Джамшутович II</a>
-    <a href="blankpage.html" class="orders">Мои заказы</a>     
-    <a href="blankpage.html" class="profile">Личный кабинет</a>
-    <nav class="submenu">
+    <a href="blankpage.html" class="user-name">Равшан Джамшутович II</a>
+    <a href="blankpage.html" class="user-orders">Мои заказы</a>     
+    <a href="blankpage.html" class="user-profile">Личный кабинет</a>
+    <nav class="navigate">
       <ul>
         <li><a href="blankpage.html">Главная</a></li>
         <li><a href="blankpage.html">Компания</a></li>
@@ -38,7 +39,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <ul>
       <li><a href="blankpage.html" class="catalog">Каталог</a></li>
       <li><a href="blankpage.html" class="tools">Инструмент</a></li>
@@ -48,12 +49,12 @@
     <p class="filter">Фильтр</p>
     <h3>цена</h3>
     <p>Сортировка:</p>
-    <ul>
+    <ul class="sort-type">
       <li><a href="blankpage.html">ПО ЦЕНЕ</a></li>
       <li><a href="blankpage.html">ПО ТИПУ</a></li>
       <li><a href="blankpage.html">ПО ФУНКЦИОНАЛУ</a></li>
     </ul>
-    <fieldset>
+    <fieldset class="produsers-list">
       <legend>Производители</legend>
         <label>
           <input type="checkbox" checked name="BOSCH">BOSCH
@@ -141,7 +142,7 @@
     <a href="blankpage.html">Следующая</a>
     </ul>
   </main>
-  <footer>
+  <footer class="footer">
     <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
     <p>Перфоратор — универсальный строительный инструмент. 
       Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. </p>
@@ -180,8 +181,8 @@
         <li><a href="https://facebook.com"><img src="/img/Facebook.svg" alt="Facebook icon"></a></li>
         <li><a href="https://instagram.com"><img src="/img/Instagram.svg" alt="Instagram icon"></a></li>
       </ul>
-      <p>Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru<a></p>
-      <p>Разработано —<a href="https://htmlacademy.ru">htmlacademy.ru</a></p>
+      <p class="mailto">Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru<a></p>
+      <p class="developer-site">Разработано —<a href="https://htmlacademy.ru">htmlacademy.ru</a></p>
   </footer>
     
 </body>
