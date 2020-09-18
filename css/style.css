@@ -1,524 +1,529 @@
 /* cuprum-regular - latin_cyrillic */
 @font-face {
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/cuprum-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-    src: local('Cuprum Regular'), local('Cuprum-Regular'),
-         url('../fonts/cuprum-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/cuprum-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/cuprum-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/cuprum-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/cuprum-v12-latin_cyrillic-regular.svg#Cuprum') format('svg'); /* Legacy iOS */
-         font-display: swap;
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/cuprum-v12-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local("Cuprum Regular"), local("Cuprum-Regular"),
+    url("../fonts/cuprum-v12-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/cuprum-v12-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/cuprum-v12-latin_cyrillic-regular.svg#Cuprum") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
-  /* cuprum-700 - latin_cyrillic */
+/* cuprum-700 - latin_cyrillic */
 @font-face {
-font-family: 'Cuprum';
-font-style: normal;
-font-weight: 700;
-src: url('../fonts/cuprum-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-src: local('Cuprum Bold'), local('Cuprum-Bold'),
-        url('../fonts/cuprum-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/cuprum-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/cuprum-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/cuprum-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum') format('svg'); /* Legacy iOS */
-        font-display: swap;
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/cuprum-v12-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local("Cuprum Bold"), local("Cuprum-Bold"),
+    url("../fonts/cuprum-v12-latin_cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/cuprum-v12-latin_cyrillic-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 /* cuprum-italic - latin_cyrillic */
 @font-face {
-font-family: 'Cuprum';
-font-style: italic;
-font-weight: 400;
-src: url('../fonts/cuprum-v12-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
-src: local('Cuprum Italic'), local('Cuprum-Italic'),
-        url('../fonts/cuprum-v12-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/cuprum-v12-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/cuprum-v12-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/cuprum-v12-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/cuprum-v12-latin_cyrillic-italic.svg#Cuprum') format('svg'); /* Legacy iOS */
-        font-display: swap;
+  font-family: "Cuprum";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/cuprum-v12-latin_cyrillic-italic.eot"); /* IE9 Compat Modes */
+  src: local("Cuprum Italic"), local("Cuprum-Italic"),
+    url("../fonts/cuprum-v12-latin_cyrillic-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/cuprum-v12-latin_cyrillic-italic.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/cuprum-v12-latin_cyrillic-italic.svg#Cuprum") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 /* cuprum-700italic - latin_cyrillic */
 @font-face {
-font-family: 'Cuprum';
-font-style: italic;
-font-weight: 700;
-src: url('../fonts/cuprum-v12-latin_cyrillic-700italic.eot'); /* IE9 Compat Modes */
-src: local('Cuprum Bold Italic'), local('Cuprum-BoldItalic');
-        font-display: swap;
+  font-family: "Cuprum";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/cuprum-v12-latin_cyrillic-700italic.eot"); /* IE9 Compat Modes */
+  src: local("Cuprum Bold Italic"), local("Cuprum-BoldItalic");
+  font-display: swap;
 }
 
 /* pt-sans-regular - latin_cyrillic */
 @font-face {
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-src: url('../fonts/pt-sans-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-src: local('PT Sans'), local('PTSans-Regular'),
-        url('../fonts/pt-sans-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/pt-sans-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local("PT Sans"), local("PTSans-Regular"),
+    url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/pt-sans-v12-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans")
+      format("svg"); /* Legacy iOS */
 }
 /* pt-sans-700 - latin_cyrillic */
 @font-face {
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-src: url('../fonts/pt-sans-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-src: local('PT Sans Bold'), local('PTSans-Bold'),
-        url('../fonts/pt-sans-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/pt-sans-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/pt-sans-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/pt-sans-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/pt-sans-v12-latin_cyrillic-700.svg#PTSans') format('svg'); /* Legacy iOS */
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-v12-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local("PT Sans Bold"), local("PTSans-Bold"),
+    url("../fonts/pt-sans-v12-latin_cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/pt-sans-v12-latin_cyrillic-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/pt-sans-v12-latin_cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/pt-sans-v12-latin_cyrillic-700.svg#PTSans") format("svg"); /* Legacy iOS */
 }
-
 
 :root {
-    --white: #FFFFFF;
-    --white-transparent: rgba(255,255,255,0.3);
-    --white-darker: #F3F7F9;
-    --dark-blue: #293449;
-    --darker-blue: #32425C;
-    --blue: #3BBCE3;
-    --blue-black-active: #161D29;
-    --light-blue: rgb(218, 231, 240);
-    --red: #EE3643;
-    --red-dark: #BA2732;
-    --black: #000000;
-    --green: #63A63E;
-    --orange: #FFBF47;
-    --orange-light: #FFD180;
-    --violet: #DC91D8;
-    --light-green: #8ED78F;
-    --light-orange: #FFC047;
-    --grey:  #F9F5F0;
-    --grey-darker: #A9A9A9;
-    --grey-lighter: #F1F5F7;
-    --grey-transparent: rgba(0, 0, 0, 0.25);
-    
+  --white: #ffffff;
+  --white-transparent: rgba(255, 255, 255, 0.3);
+  --white-darker: #f3f7f9;
+  --dark-blue: #293449;
+  --darker-blue: #32425c;
+  --blue: #3bbce3;
+  --blue-black-active: #161d29;
+  --light-blue: rgb(218, 231, 240);
+  --red: #ee3643;
+  --red-dark: #ba2732;
+  --black: #000000;
+  --green: #63a63e;
+  --orange: #ffbf47;
+  --orange-light: #ffd180;
+  --violet: #dc91d8;
+  --light-green: #8ed78f;
+  --light-orange: #ffc047;
+  --grey: #f9f5f0;
+  --grey-darker: #a9a9a9;
+  --grey-lighter: #f1f5f7;
+  --grey-transparent: rgba(0, 0, 0, 0.25);
 }
 
-
 body {
-    background: var(--white);
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
+  background: var(--white);
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 body a {
-    text-decoration: none;
-    color: var(--white);
+  text-decoration: none;
+  color: var(--white);
 }
-
 
 /* ---------------------header */
 
-
 .header {
-    background-color: var(--light-blue);
-    color: var(--white);
-    font-size: 18px;
-    line-height: 24px;
-    
+  background-color: var(--light-blue);
+  color: var(--white);
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .header-menu {
-    background-color: var(--dark-blue);
+  background-color: var(--dark-blue);
 }
 
 .header-order {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
-.header-logo{
-    background-color: var(--red);
+.header-logo {
+  background-color: var(--red);
 }
 
 .site-description {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    color: var(--red);
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--red);
 }
 
 .phone {
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 30px;
-    color: var(--red);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--red);
 }
 
 .adress {
-    color: var(--darker-blue);
-    font-size: 14px;
-    line-height: 24px;
+  color: var(--darker-blue);
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .enter,
 .registration {
-    font-size: 21px;
-    line-height: 21px;
-    color: var(--black);
-    background-color: var(--white);
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--black);
+  background-color: var(--white);
 }
 
 .submenu {
-    background-color: var(--darker-blue);
-    color: var(--white);
-    
+  background-color: var(--darker-blue);
+  color: var(--white);
 }
 
 .submenu ul {
-    list-style: none;
+  list-style: none;
 }
 
-/* --------------offer section */
-
+/* ---------------------offer section */
 
 .offer-block {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .offer-block h3,
 .offer-block-info {
-    margin: 0;
+  margin: 0;
 }
 
 .new {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--white);
-    background-color: var(--red);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
 }
 
 .offer-block-info {
-    background-color: var(--white-transparent);
-    color: var(--white);
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
+  background-color: var(--white-transparent);
+  color: var(--white);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .offers .materials {
-    background-color: var(--orange);
+  background-color: var(--orange);
 }
 
 .offers .tools {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
 .offers .tech {
-    background-color: var(--violet);
+  background-color: var(--violet);
 }
 
 .offers .perforator {
-    background-color: var(--grey-transparent);
+  background-color: var(--grey-transparent);
 }
 
 .offers .discount {
-    background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
 
 .offers .delivery {
-    background-color: var(--light-orange);
+  background-color: var(--light-orange);
 }
 
-.perforator h3{
-    text-transform: uppercase;
+.perforator h3 {
+  text-transform: uppercase;
 }
 
 .perforator .man-toys {
-    font-size: 18px;
-    line-height: 24px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .perforator .offer-block-info {
-    background-color: var(--red);
+  background-color: var(--red);
 }
 
-/* ------------- Popular product section */
+/* ---------------------Popular product section */
 
 .popular-header {
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    background-color: var(--grey);
-    color: var(--darker-blue);
-    text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  background-color: var(--grey);
+  color: var(--darker-blue);
+  text-transform: uppercase;
 }
 
-.popular-product h2{
-    margin: 0;
+.popular-product h2 {
+  margin: 0;
 }
 
 .all-popular-products {
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--white);
-    background-color: var(--red);
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
 }
 
 .popular-block h3 {
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    color: var(--black);
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--black);
 }
 
 .popular-product .old-price {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 18px;
-    color: var(--grey-darker);
-    margin: 0;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: var(--grey-darker);
+  margin: 0;
 }
 
 .popular-product .new-price {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 18px;
-    color:var(--white);
-    background-color: var(--red);
-    margin: 0;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
+  margin: 0;
 }
 
-/* ------------- Popular producers section */
+/* ---------------------Popular producers section */
 
-.popular-producers h2{
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    background-color: var(--grey);
-    color: var(--darker-blue);
-    text-transform: uppercase;
-    margin: 0;
+.popular-producers h2 {
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  background-color: var(--grey);
+  color: var(--darker-blue);
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .all-producers {
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--white);
-    background-color: var(--red);
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
+  text-transform: uppercase;
 }
 
 .popular-producers ul {
-    list-style: none;
+  list-style: none;
 }
 
-
-/* -------------------Service section  */
+/* ---------------------Service section  */
 
 .service {
-    background-color: var(--grey-lighter);
+  background-color: var(--grey-lighter);
 }
 
 .service h3 {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    color: var(--black);
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--black);
 }
 
 .service .delivery {
-    color: var(--darker-blue);
+  color: var(--darker-blue);
 }
 
 .service p {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 24px;
-    color: var(--black);
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--black);
 }
 
- .service-list li {
-    list-style: none;
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 30px;
-    background-color: var(--darker-blue);
-    color: var(--white);
+.service-list li {
+  list-style: none;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  background-color: var(--darker-blue);
+  color: var(--white);
 }
 
 .service-list .service-list-delivery {
-    background-color: var(--white);
-    color: var(--darker-blue);
+  background-color: var(--white);
+  color: var(--darker-blue);
 }
 
-
-/* ----------------Contacts section*/
+/* ---------------------Contacts section*/
 
 .contacts {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .contacts h2 {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    color: var(--black);
-    text-transform: uppercase;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--black);
+  text-transform: uppercase;
 }
 
 .contacts p {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 24px;
-    color: var(--black);
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--black);
 }
 
-.contacts-list a{
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--black);
-    list-style: none;
+.contacts-list a {
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+  list-style: none;
 }
 
 .more-about-company,
 .send-message {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--white);
-    background-color:var(--red);
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
 }
 
-
-/* ---------------footer */
-
+/* ---------------------footer */
 
 .footer {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--white);
-    background-color: var(--darker-blue);
-    
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
+  background-color: var(--darker-blue);
 }
 
 .footer .social {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    background-color: var(--dark-blue);
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--dark-blue);
 }
 
 .footer-logo {
-    background-color: var(--red);
+  background-color: var(--red);
 }
 
 .footer-submenu ul {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-submenu-second a {
-    color: var(--orange-light);
+  color: var(--orange-light);
 }
 
 .mailto a,
 .html-academy {
-    color: var(--orange-light);
+  color: var(--orange-light);
 }
 
 .footer .address,
 .footer .phone {
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--white-darker);
-
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white-darker);
 }
 
-
-/* --------------------- */
-
+/* ---------------------pseudo-elements*/
 
 .search::before {
-    width: 11px;
-    height: 11px;
-    content: url('../img/icon-search.svg');
-    padding-right: 5px;
+  width: 11px;
+  height: 11px;
+  content: url("../img/icon-search.svg");
+  padding-right: 5px;
 }
 
 .bookmarks::before {
-    width: 14px;
-    height: 16px;
-    content: url('../img/bookmarks.svg');
-    padding-right: 5px;
-
+  width: 14px;
+  height: 16px;
+  content: url("../img/bookmarks.svg");
+  padding-right: 5px;
 }
 
 .cart::before {
-    width: 15px;
-    height: 11px;
-    content: url('../img/icon-cart.svg');
-    padding-right: 5px;
-
+  width: 15px;
+  height: 11px;
+  content: url("../img/icon-cart.svg");
+  padding-right: 5px;
 }
 
 .phone::before {
-    width: 18px;
-    height: 19px;
-    content: url('../img/icon-phone.svg');
-    padding-right: 5px;
-
+  width: 18px;
+  height: 19px;
+  content: url("../img/icon-phone.svg");
+  padding-right: 5px;
 }
 
 .user::before {
-    width: 18px;
-    height: 19px;
-    content: url('../img/icon-user.svg');
-    padding-right: 5px;
-
+  width: 18px;
+  height: 19px;
+  content: url("../img/icon-user.svg");
+  padding-right: 5px;
 }
 
 .catalog::before {
-    width: 18px;
-    height: 19px;
-    content: url('../img/home.svg');
-    padding-right: 5px;
-
+  width: 18px;
+  height: 19px;
+  content: url("../img/home.svg");
+  padding-right: 5px;
 }
 
 /* .perforators::before {
@@ -529,31 +534,31 @@ body a {
 
 } */
 
-.producers li::before{
-    width: 23px;
-    height: 23px;
-    content: url(../img/checkbox-off.svg);
-    padding-right: 10px;
+.producers li::before {
+  width: 23px;
+  height: 23px;
+  content: url(../img/checkbox-off.svg);
+  padding-right: 10px;
 }
 
 .producers li:nth-child(1)::before,
-.producers li:nth-child(3)::before{
-    width: 23px;
-    height: 23px;
-    content: url(../img/checkbox-on.svg);
-    padding-right: 10px;
+.producers li:nth-child(3)::before {
+  width: 23px;
+  height: 23px;
+  content: url(../img/checkbox-on.svg);
+  padding-right: 10px;
 }
 
-.power li::before{
-    width: 19px;
-    height: 10;
-    content: url(../img/radio-off.svg);
-    padding-right: 10px;
+.power li::before {
+  width: 19px;
+  height: 10;
+  content: url(../img/radio-off.svg);
+  padding-right: 10px;
 }
 
-.power li:last-child::before{
-    width: 19px;
-    height: 10;
-    content: url(../img/radio-on.svg);
-    padding-right: 10px;
+.power li:last-child::before {
+  width: 19px;
+  height: 10;
+  content: url(../img/radio-on.svg);
+  padding-right: 10px;
 }
