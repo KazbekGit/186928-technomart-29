@@ -50,6 +50,10 @@
    * 2. Show the overflow in Edge and IE.
    */
   
+  div {
+    box-sizing: border-box;
+  }
+
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */

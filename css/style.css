@@ -109,6 +109,7 @@
   --white-darker: #f3f7f9;
   --dark-blue: #293449;
   --darker-blue: #32425c;
+  --blue-grey: #405069;
   --blue: #3bbce3;
   --black-shadow: rgba(0, 0, 0, 0.15);
   --black-darker-shadow: rgba(0, 0, 0, 0.24);
@@ -134,6 +135,9 @@
   --grey-lighter: #f1f5f7;
   --grey-light: #eaeaea;
   --grey-transparent: rgba(0, 0, 0, 0.25);
+  --grey-basic: #3d546f;
+  --blue-black: #293449;
+  
 }
 
 body {
@@ -174,6 +178,9 @@ a {
 .header-bookmarks-icon,
 .header-cart-icon {
   opacity: 0.3;
+}
+
+.header-search-input::before {
 }
 
 .header-bookmarks:hover .bookmarks-icon {
@@ -256,13 +263,6 @@ a {
   font-size: 21px;
   line-height: 30px;
   color: var(--red);
-}
-
-.phone::before {
-  width: 18px;
-  height: 19px;
-  content: url("../img/icon-phone.svg");
-  padding-right: 5px;
 }
 
 .user::before {
@@ -571,6 +571,12 @@ a {
   color: var(--white);
 }
 
+.service-list li:hover {
+  background: var(--blue-black);
+  box-shadow: 0px 1px 0px var(--blue-black), inset 0px 1px 0px var(--blue-grey);
+  color: var(--white);
+}
+
 .service-list .service-list-delivery {
   background-color: var(--white);
   color: var(--darker-blue);
@@ -694,22 +700,165 @@ a {
 }
 
 /*-------------------------------Catalog style  */
-
-.header .user-profile {
+/*-------------------------------Header Catalog */
+.user-profile {
+  width: 299px;
+  height: 45px;
+  background-color: var(--white);
 }
 
 .user-name {
-  background-image: url(/img/icon-login.svg);
-  background-position: 19px 14px;
-  background-repeat: no-repeat;
-  padding: 12px 57px 12px 56px;
   font-size: 21px;
   line-height: 21px;
+  font-weight: 400;
+  padding-top: 12px;
   color: var(--black);
   background-color: var(--white);
+}
+
+.user-icon-catalog {
+  padding-left: 15px;
+  padding-right: 14px;
+  padding-top: 13px;
+}
+
+.user-logout-catalog,
+.user-icon-catalog {
+  fill: var(--grey-dusty);
+}
+
+.user-profile:hover .user-name {
   color: var(--black);
 }
 
-.user-name:hover {
-  background-image: url(/img/icon-login-blue.svg);
+.user-profile:hover .user-icon-catalog,
+.user-profile:hover .user-logout-catalog {
+  fill: var(--darker-blue);
+}
+
+.user-profile:active .user-name {
+  color: var(--grey-dusty);
+}
+
+.user-profile:active .user-icon-catalog,
+.user-profile:active .user-logout-catalog {
+  fill: var(--grey-dusty);
+}
+
+.user-logout-catalog {
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-left: 20px;
+}
+
+.user-cabinet,
+.user-orders {
+  color: var(--darker-blue);
+}
+
+.user-cabinet:hover,
+.user-orders:hover {
+  color: var(--red);
+}
+
+.user-cabinet:active,
+.user-orders:active {
+  color: var(--grey-dusty);
+}
+
+.user-dot {
+  color: var(--darker-blue);
+}
+
+/*-------------------------------Main Catalog  */
+
+.home-icon {
+  padding-right: 10px;
+}
+
+.icon-right-small {
+  padding-right: 10px;
+}
+
+.catalog-navigate a {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.perforators-h2 {
+  font-family: Cuprum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.filter {
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.sort p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--black);
+}
+
+.sort a {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.sort-type a {
+  color: var(--black);
+  opacity: 0.3;
+  text-decoration: underline dotted var(--red);
+}
+
+.sort-type a:hover {
+  color: var(--black);
+  opacity: 1;
+  text-decoration: underline var(--red);
+}
+
+.sort-type .price-sort {
+  color: var(--red);
+  opacity: 1;
+  text-decoration: none;
+}
+
+.down-dir-icon svg {
+  transform: rotate(180deg);
+  fill: var(--grey-dusty);
+}
+
+.produsers-list input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.produsers-list input[type="checkbox"] + label::before {
+  content: url(../img/checkbox-on.svg);
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+
 }
