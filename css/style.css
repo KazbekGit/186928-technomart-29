@@ -3,37 +3,20 @@
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/cuprum-v12-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local("Cuprum Regular"), local("Cuprum-Regular"),
-    url("../fonts/cuprum-v12-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/cuprum-v12-latin_cyrillic-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/cuprum-v12-latin_cyrillic-regular.svg#Cuprum") format("svg"); /* Legacy iOS */
+  src: 
+    url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/cuprum-v12-latin_cyrillic-regular.woff") format("woff");
   font-display: swap;
 }
+
 /* cuprum-700 - latin_cyrillic */
 @font-face {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/cuprum-v12-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
-  src: local("Cuprum Bold"), local("Cuprum-Bold"),
-    url("../fonts/cuprum-v12-latin_cyrillic-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-700.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/cuprum-v12-latin_cyrillic-700.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum") format("svg"); /* Legacy iOS */
+  src: 
+    url("../fonts/cuprum-v12-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/cuprum-v12-latin_cyrillic-700.woff") format("woff");
   font-display: swap;
 }
 /* cuprum-italic - latin_cyrillic */
@@ -41,18 +24,9 @@
   font-family: "Cuprum";
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/cuprum-v12-latin_cyrillic-italic.eot"); /* IE9 Compat Modes */
-  src: local("Cuprum Italic"), local("Cuprum-Italic"),
-    url("../fonts/cuprum-v12-latin_cyrillic-italic.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/cuprum-v12-latin_cyrillic-italic.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/cuprum-v12-latin_cyrillic-italic.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/cuprum-v12-latin_cyrillic-italic.svg#Cuprum") format("svg"); /* Legacy iOS */
+  src: 
+    url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2") format("woff2"),
+    url("../fonts/cuprum-v12-latin_cyrillic-italic.woff") format("woff");
   font-display: swap;
 }
 /* cuprum-700italic - latin_cyrillic */
@@ -60,8 +34,9 @@
   font-family: "Cuprum";
   font-style: italic;
   font-weight: 700;
-  src: url("../fonts/cuprum-v12-latin_cyrillic-700italic.eot"); /* IE9 Compat Modes */
-  src: local("Cuprum Bold Italic"), local("Cuprum-BoldItalic");
+  src: 
+  url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff2") format("woff2"),
+  url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff") format("woff");
   font-display: swap;
 }
 
@@ -70,37 +45,20 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local("PT Sans"), local("PTSans-Regular"),
-    url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/pt-sans-v12-latin_cyrillic-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans")
-      format("svg"); /* Legacy iOS */
+  src: 
+    url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff") format("woff");
+  font-display: swap;
 }
 /* pt-sans-700 - latin_cyrillic */
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-v12-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
-  src: local("PT Sans Bold"), local("PTSans-Bold"),
-    url("../fonts/pt-sans-v12-latin_cyrillic-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/pt-sans-v12-latin_cyrillic-700.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/pt-sans-v12-latin_cyrillic-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/pt-sans-v12-latin_cyrillic-700.svg#PTSans") format("svg"); /* Legacy iOS */
+  src: 
+    url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/pt-sans-v12-latin_cyrillic-700.woff") format("woff");
+  font-display: swap;
 }
 
 :root {
@@ -448,7 +406,7 @@ a {
 }
 
 .popular-block h3 {
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -457,7 +415,7 @@ a {
 }
 
 .popular-product .old-price {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -467,7 +425,7 @@ a {
 }
 
 .popular-product .new-price {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -552,7 +510,7 @@ a {
 }
 
 .service p {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -599,7 +557,7 @@ a {
 }
 
 .contacts p {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -782,7 +740,7 @@ a {
 }
 
 .catalog-navigate a {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -809,7 +767,7 @@ a {
 }
 
 .sort p {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -818,7 +776,7 @@ a {
 }
 
 .sort a {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -862,7 +820,7 @@ a {
 } */
 
 .page-navigate a {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -872,17 +830,17 @@ a {
 }
 
 .perforator-description-header {
-  font-family: Cuprum;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--black);
 }
 
 .perforator-description {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
