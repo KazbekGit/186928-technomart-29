@@ -119,6 +119,7 @@
   --red-dark: #ba2732;
   --red-darker: #ca2c37;
   --black: #000000;
+  --black-transpirant: rgba(0, 0, 0, 0.15);
   --black-light: rgb(0, 0, 0, 0.25);
   --green: #63a63e;
   --green-header-hover: #5fbb2d;
@@ -137,7 +138,6 @@
   --grey-transparent: rgba(0, 0, 0, 0.25);
   --grey-basic: #3d546f;
   --blue-black: #293449;
-  
 }
 
 body {
@@ -701,6 +701,7 @@ a {
 
 /*-------------------------------Catalog style  */
 /*-------------------------------Header Catalog */
+
 .user-profile {
   width: 299px;
   height: 45px;
@@ -849,16 +850,42 @@ a {
   fill: var(--grey-dusty);
 }
 
-.produsers-list input[type="checkbox"] {
+/*-------------------------------Popular producers Catalog */
+
+/* .popular-produsers li:hover {
   position: absolute;
-  z-index: -1;
-  opacity: 0;
+  width: 220px;
+  height: 318px;
+  left: 401px;
+  top: 1933px;
+  filter: drop-shadow(0px 4px 20px var(--black-transpirant));
+} */
+
+.page-navigate a {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  list-style-type: none;
+  color: var(--black);
 }
 
-.produsers-list input[type="checkbox"] + label::before {
-  content: url(../img/checkbox-on.svg);
-  display: inline-block;
-  width: 1em;
-  height: 1em;
+.perforator-description-header {
+  font-family: Cuprum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
 
+.perforator-description {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--black);
 }
