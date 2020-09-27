@@ -94,10 +94,18 @@
 }
 
 body {
+  min-width: 940px;
+  margin: 0;
+  padding: 0;
   background: var(--white);
   font-family: Cuprum, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {
