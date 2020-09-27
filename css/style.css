@@ -3,8 +3,7 @@
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
-  src: 
-    url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2") format("woff2"),
+  src: url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2") format("woff2"),
     url("../fonts/cuprum-v12-latin_cyrillic-regular.woff") format("woff");
   font-display: swap;
 }
@@ -14,8 +13,7 @@
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
-  src: 
-    url("../fonts/cuprum-v12-latin_cyrillic-700.woff2") format("woff2"),
+  src: url("../fonts/cuprum-v12-latin_cyrillic-700.woff2") format("woff2"),
     url("../fonts/cuprum-v12-latin_cyrillic-700.woff") format("woff");
   font-display: swap;
 }
@@ -24,8 +22,7 @@
   font-family: "Cuprum";
   font-style: italic;
   font-weight: 400;
-  src: 
-    url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2") format("woff2"),
+  src: url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2") format("woff2"),
     url("../fonts/cuprum-v12-latin_cyrillic-italic.woff") format("woff");
   font-display: swap;
 }
@@ -34,9 +31,8 @@
   font-family: "Cuprum";
   font-style: italic;
   font-weight: 700;
-  src: 
-  url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff2") format("woff2"),
-  url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff") format("woff");
+  src: url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff2") format("woff2"),
+    url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff") format("woff");
   font-display: swap;
 }
 
@@ -45,8 +41,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: 
-    url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2") format("woff2"),
+  src: url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2") format("woff2"),
     url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff") format("woff");
   font-display: swap;
 }
@@ -55,8 +50,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: 
-    url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2") format("woff2"),
+  src: url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2") format("woff2"),
     url("../fonts/pt-sans-v12-latin_cyrillic-700.woff") format("woff");
   font-display: swap;
 }
@@ -90,6 +84,7 @@
   --grey-darker: #a9a9a9;
   --grey-darker-transparent: rgb(169, 169, 169, 0.3);
   --grey-dusty: #c5c5c5;
+  --grey-light-border: #e5e5e5;
   --grey-dusty-transparent: rgb(197, 197, 197, 0.3);
   --grey-lighter: #f1f5f7;
   --grey-light: #eaeaea;
@@ -818,6 +813,31 @@ a {
   top: 1933px;
   filter: drop-shadow(0px 4px 20px var(--black-transpirant));
 } */
+
+.page-navigate li {
+  border: 1px solid var(--grey-light-border);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.page-navigate li:hover {
+  border: 1px solid var(--grey-dusty);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.page-navigate li:first-child {
+  border: 1px solid var(--red);
+  background-color: var(--red);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.page-navigate li:active {
+  border: 1px solid var(--red);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
 
 .page-navigate a {
   font-family: PT Sans, Arial, Helvetica, sans-serif;
