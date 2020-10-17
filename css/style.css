@@ -406,7 +406,15 @@ a {
 
 .offer-block {
   min-width: 300px;
-  height: 123px;
+  min-height: 123px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 21px;
+  padding-left: 21px;
   font-size: 24px;
   line-height: 30px;
 }
@@ -426,25 +434,24 @@ a {
 .offer-block-info {
   width: 135px;
   height: 38px;
-}
-
-.new {
-  position: absolute;
-  font-family: Cuprum Arial, Helvetica, sans-serif;
-  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-transparent);
+  color: var(--white);
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: var(--white);
-  background-color: var(--red);
+  text-transform: uppercase;
+  opacity: 1;
 }
 
-.offers-new {
+.new {
   width: 100px;
   height: 30px;
   position: absolute;
-  top: 5px;
-  right: -30px;
+  top: 10px;
+  right: -25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,23 +463,6 @@ a {
   background-color: var(--red);
   transform: rotate(45deg);
   text-transform: uppercase;
-}
-
-.offer-block-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--white-transparent);
-  color: var(--white);
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-  opacity: 0.3;
-}
-
-.offer-block-info {
-  opacity: 1;
 }
 
 .offer-block-info:hover {
@@ -487,20 +477,16 @@ a {
   background-color: var(--orange);
 }
 
-.offer-block {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+
+.offer-block img {
+  flex-grow: 2;
+  align-self: center;
 }
 
-.materials-block {
+.offer-headers-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-right: 55px;
-  margin-left: 23px;
+  justify-content: space-around;
 }
 
 .materials-block h3{
@@ -508,7 +494,7 @@ a {
 }
 
 .offers .tools {
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 .offers .tech {
@@ -533,7 +519,7 @@ a {
 
 
 .offers .discount {
-  background-color: var(--light-blue);
+  background-color: var(--light-green);
 }
 
 .offers .delivery {
@@ -612,15 +598,22 @@ a {
 }
 
 .popular-block {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-around;
-  align-items: center;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 148px;
+overflow: hidden;
   border: 1px solid var(--grey-light);
 }
 
+.popular-block img {
+  justify-self: center;
+  align-self: center;
+}
+
 .popular-block h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
   font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -628,6 +621,16 @@ a {
   line-height: 20px;
   color: var(--black);
   text-align: center;
+}
+/* 
+.popular-block del {
+  margin-bottom: 13px;
+} */
+
+.popular-block-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .popular-product .old-price {
@@ -640,26 +643,27 @@ a {
   margin: 0;
 }
 
-.popular-product .new-price {
+.new-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  margin-top: 13px;
+  width: 141px;
+  height: 38px;
+  border-radius: 3px;
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
   font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
   color: var(--white);
-  margin: 0;
+  background-color: var(--red);
 }
 
-.new-price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 10px;
-  width: 141px;
-  height: 38px;
-  border-radius: 3px;
-  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
-  background-color: var(--red);
+.no-old-price + .new-price {
+  margin-top: 31px;
 }
 
 .all-popular-products:hover {
@@ -690,16 +694,18 @@ a {
 
 .producers-list li {
   list-style: none;
-  border: 1px solid var(--grey-light);
-  border-radius: 2px;
+  box-sizing: border-box;
 }
 
 .producers-list a {
-  width: 220px;
-  height: 145px;
+  min-width: 220px;
+  min-height: 145px;
+  border: 1px solid var(--grey-light);
+  border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--white);
 }
 
 .popular-producers-header {
@@ -738,7 +744,7 @@ a {
   margin-right: 14px;
 }
 
-.popular-producers a:hover {
+.producers-list li:hover {
   filter: drop-shadow(0px 4px 20px var(--black-shadow));
 }
 
@@ -797,7 +803,7 @@ a {
 
 .service-list-shadow {
   position: absolute;
-  top: -45px;
+  top: 195px;
   left: 230px;
 }
 
