@@ -367,6 +367,7 @@ a {
 .submenu ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 0;
   margin: 0;
@@ -404,6 +405,8 @@ a {
 }
 
 .offer-block {
+  min-width: 300px;
+  height: 123px;
   font-size: 24px;
   line-height: 30px;
 }
@@ -412,10 +415,23 @@ a {
 .offer-block-info {
   margin: 0;
   font-weight: bold;
+  color: var(--white);
+  font-family: Cuprum;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.offer-block-info {
+  width: 135px;
+  height: 38px;
 }
 
 .new {
   position: absolute;
+  font-family: Cuprum Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -423,7 +439,29 @@ a {
   background-color: var(--red);
 }
 
+.offers-new {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cuprum Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--red);
+  transform: rotate(45deg);
+  text-transform: uppercase;
+}
+
 .offer-block-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--white-transparent);
   color: var(--white);
   font-weight: normal;
@@ -449,6 +487,26 @@ a {
   background-color: var(--orange);
 }
 
+.offer-block {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.materials-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 55px;
+  margin-left: 23px;
+}
+
+.materials-block h3{
+  margin-bottom: 14px;
+}
+
 .offers .tools {
   background-color: var(--green);
 }
@@ -469,7 +527,10 @@ a {
   background-image: url("/img/perforator-img.jpg");
   background-repeat: no-repeat;
   background-color: var(--black-light);
+  padding-top: 23px;
+  padding-left: 24px;
 }
+
 
 .offers .discount {
   background-color: var(--light-blue);
@@ -479,12 +540,26 @@ a {
   background-color: var(--light-orange);
 }
 
-.perforator h3 {
+.man-toys h3{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
   text-transform: uppercase;
+  color: var(--white);
 }
 
-.man-toys {
-  background-color: var(--black-light);
+.man-toys-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 113px;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
 }
 
 .perforator .offer-block-info {
@@ -537,24 +612,15 @@ a {
 }
 
 .popular-block {
-  display: grid;
-  grid-template-columns: 157px;
-  grid-template-rows: 164px 1fr 1fr 1fr;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid var(--grey-light);
 }
 
-.popular-block .no-old-price {
-  grid-row: 2/4;
-}
-
-.popular-block del {
-  text-align: center;
-}
-
 .popular-block h3 {
-  margin-top: 8px;
-  margin-bottom: 7px;
   font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -582,7 +648,6 @@ a {
   line-height: 18px;
   color: var(--white);
   margin: 0;
-  justify-self: center;
 }
 
 .new-price {
@@ -1271,7 +1336,7 @@ a {
   padding: 0;
   padding-left: 29px;
   padding-top: 29px;
-  font-family: Cuprum;
+  font-family: Cuprum Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
