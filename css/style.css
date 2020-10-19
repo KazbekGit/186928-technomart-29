@@ -1352,7 +1352,7 @@ a {
 
 .pagination a {
   display: block;
-  
+
   font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1671,4 +1671,26 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* ----------------------------- BlankPage */
+
+.blankpage-body {
+  background-image: url(/img/blankpageBG.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-color: var(--light-blue);
+}
+
+.blankpage-body::before {
+  content: 'Welcome to "Blank page"!';
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
 }
