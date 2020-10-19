@@ -408,7 +408,6 @@ a {
   min-width: 300px;
   min-height: 123px;
   position: relative;
-  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -446,7 +445,14 @@ a {
   opacity: 1;
 }
 
-.new {
+.new-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.new-badge::before {
+  content: "NEW";
+  display: block;
   width: 100px;
   height: 30px;
   position: absolute;
@@ -596,10 +602,8 @@ a {
 }
 
 .popular-block {
-  position: relative;
   display: grid;
   grid-template-rows: 1fr 148px;
-  overflow: hidden;
   border: 1px solid var(--grey-light);
 }
 
@@ -1273,17 +1277,12 @@ a {
 
 .perforators-list-text h3,
 .perforators-list-text del {
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
-}
-
-.perforators-list-text p {
-  margin-bottom: 7px;
-  color: var(--black);
 }
 
 .perforators-list-text del {
@@ -1292,7 +1291,9 @@ a {
 }
 
 .perforators-list-text p {
-  font-family: PT Sans;
+  margin-bottom: 7px;
+  color: var(--black);
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -1350,6 +1351,8 @@ a {
 }
 
 .pagination a {
+  display: block;
+  
   font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
