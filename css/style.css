@@ -543,7 +543,6 @@ a {
   padding-right: 20px;
 }
 
-
 .slider-item-drills {
   width: 620px;
   height: 266px;
@@ -578,7 +577,7 @@ a {
   height: 27px;
   border: 3px solid var(--white);
   border-top: none;
-  border-right: none ;
+  border-right: none;
   transform: rotate(45deg);
 }
 
@@ -592,18 +591,18 @@ a {
   height: 27px;
   border: 3px solid var(--white);
   border-top: none;
-  border-right: none ;
+  border-right: none;
   transform: rotate(225deg);
 }
 
 .slider-controls {
-    display: flex;
-    width: 30px;
-    justify-content: space-between;
-    position: absolute;
-    left: 295px;
-    bottom: 38px;
-    z-index: 1;
+  display: flex;
+  width: 30px;
+  justify-content: space-between;
+  position: absolute;
+  left: 295px;
+  bottom: 38px;
+  z-index: 1;
 }
 
 .slider-controls button {
@@ -1718,7 +1717,7 @@ a {
   margin-top: 27px;
 }
 
-.custom-radio + label::before {
+.custom-radio+label::before {
   content: "";
   display: inline-block;
   width: 25px;
@@ -1730,7 +1729,7 @@ a {
   margin-right: 10px;
 }
 
-.custom-radio:checked + label::after {
+.custom-radio:checked+label::after {
   content: "";
   position: absolute;
   top: 8px;
@@ -1742,7 +1741,6 @@ a {
   vertical-align: middle;
   margin-right: 10px;
 }
-
 
 .sort {
   grid-row: 2/3;
