@@ -440,6 +440,22 @@ a {
   line-height: 18px;
   text-transform: uppercase;
   opacity: 1;
+  vertical-align: middle;
+}
+
+.offer-block-info a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 135px;
+  height: 38px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+.open-catalog {
+  position: absolute;
+  top: 201px;
+  left: 21px;
 }
 
 .new-badge {
@@ -510,6 +526,13 @@ a {
 }
 
 .man-toys {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-item-perforators {
   width: 620px;
   height: 266px;
   background-image: url("/img/perforator-img.jpg");
@@ -517,6 +540,102 @@ a {
   background-color: var(--black-light);
   padding-top: 23px;
   padding-left: 24px;
+  padding-right: 20px;
+}
+
+
+.slider-item-drills {
+  width: 620px;
+  height: 266px;
+  background-image: url("/img/Drills.jpg");
+  background-repeat: no-repeat;
+  background-color: var(--black-light);
+  padding-top: 23px;
+  padding-left: 24px;
+  padding-right: 20px;
+}
+
+.man-toys ul {
+  margin: 0;
+  padding: 0;
+}
+
+.man-toys li {
+  margin: 0;
+  padding: 0;
+  padding-left: 24px;
+  padding-top: 23px;
+  box-sizing: border-box;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 123px;
+  left: 25px;
+  margin-bottom: 39px;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border: 3px solid var(--white);
+  border-top: none;
+  border-right: none ;
+  transform: rotate(45deg);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 123px;
+  right: 25px;
+  margin-bottom: 39px;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border: 3px solid var(--white);
+  border-top: none;
+  border-right: none ;
+  transform: rotate(225deg);
+}
+
+.slider-controls {
+    display: flex;
+    width: 30px;
+    justify-content: space-between;
+    position: absolute;
+    left: 295px;
+    bottom: 38px;
+    z-index: 1;
+}
+
+.slider-controls button {
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls button:focus {
+  outline: none;
+}
+
+.slider-controls .button-current {
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  background-color: var(--red);
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slide-current {
+  display: block;
+}
+
+.slide {
+  display: none;
 }
 
 .offers .discount {
@@ -543,7 +662,7 @@ a {
 .man-toys-text {
   margin: 0;
   padding: 0;
-  margin-bottom: 113px;
+  margin-bottom: 34px;
   font-size: 18px;
   line-height: 24px;
   color: var(--white);
@@ -1045,12 +1164,17 @@ a {
 .footer-bottom-container {
   display: grid;
   grid-template-columns: 5fr 3fr 2fr 2fr 2fr;
+  justify-content: space-between;
 }
 
 .social-buttons {
   list-style: none;
   display: flex;
   padding-right: 118px;
+}
+
+.developer-site {
+  grid-column: 5/6;
 }
 
 .footer-submenu-first {
@@ -1516,15 +1640,12 @@ a {
   list-style: none;
 }
 
-.produsers-list li {
-  margin-bottom: 20px;
-}
-
 .produsers-list label {
   position: relative;
   display: block;
   cursor: pointer;
   user-select: none;
+  margin-bottom: 20px;
 }
 
 .produsers-list label::before {
@@ -1562,7 +1683,7 @@ a {
   list-style: none;
 }
 
-.power-list li {
+.power-list label {
   margin-top: 23px;
   position: relative;
 }
