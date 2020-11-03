@@ -1478,7 +1478,7 @@ a {
 .write-us-fixed textarea {
   padding: 0;
   margin: 0;
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -2017,7 +2017,7 @@ a {
       -ms-flex-align: start;
           align-items: flex-start;
   list-style: none;
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -2427,7 +2427,7 @@ a {
   text-transform: uppercase;
   height: 38px;
   background-color: var(--cream-color);
-  font-family: PT Sans;
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
