@@ -1,10 +1,8 @@
-
+// Спасибо за рекомендацию использовать data- это очень крутой механизм )) Я впечатлен!
 let btns = document.querySelectorAll("[data-modal]");
-
 
 btns.forEach(element => {
     element.onclick = function (event) {
-        console.log(event);
         event.preventDefault();
         event.stopPropagation();
 
@@ -19,7 +17,9 @@ btns.forEach(element => {
 
 });
 
-
+// На главной странице есть элементы, которых нет на внутренней странице 
+// (например, модальные окна Карта и форма связи), // поэтому, когда JS исполняется на внутренней, 
+// то не находит соответствующих выдает ошибки. Я не нашел иного выхода, как обернуть весь код в условие. 
 if (document.querySelector('index-page')) {
     let modalUserData = document.getElementById('modal-userData');
     let sendUserMessage = document.getElementById('send-user-message');
