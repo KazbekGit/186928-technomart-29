@@ -15,20 +15,10 @@ for (let index = 0; index < btns.length; index++) {
 }
 
 if (document.querySelector('index-page')) {
-    let modalUserData = document.getElementById('modal-userData');
-    let sendUserMessage = document.getElementById('send-user-message');
-    let sendUserMessageClose = document.getElementById('modal-userData-close');
-    let mapReference = document.getElementById('map-reference');
-
-    let smallMap = document.getElementById('small-map');
-    let modalBigMap = document.getElementById('big-map');
-    let modalBigMapClose = document.getElementById('modal-map-close');
-
     let leftArrowOfSlider = document.getElementById('left-arrow');
     let rightArrowOfSlider = document.getElementById('right-arrow');
 
     let sliderTrack = document.getElementById('slider-track');
-    let sliderTrackTemp;
 
     let buttonItems = document.getElementsByClassName('button-item');
 
