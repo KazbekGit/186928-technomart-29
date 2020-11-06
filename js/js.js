@@ -1,25 +1,19 @@
-// Спасибо за рекомендацию использовать data- это очень крутой механизм )) Я впечатлен!
 let btns = document.querySelectorAll("[data-modal]");
 
-btns.forEach(element => {
-    element.onclick = function (event) {
+for (let index = 0; index < btns.length; index++) {
+    btns[index].addEventListener("click", function (event) {
         event.preventDefault();
         event.stopPropagation();
 
-        const type = event.target.dataset.modal;
+        const type = this.dataset.modal;
         const modalTypes = document.querySelectorAll("[data-modal-type='" + type + "']");
 
         modalTypes.forEach(element => {
             element.classList.toggle("visually-hidden");
         });
+    });
+}
 
-    };
-
-});
-
-// На главной странице есть элементы, которых нет на внутренней странице 
-// (например, модальные окна Карта и форма связи), // поэтому, когда JS исполняется на внутренней, 
-// то не находит соответствующих выдает ошибки. Я не нашел иного выхода, как обернуть весь код в условие. 
 if (document.querySelector('index-page')) {
     let modalUserData = document.getElementById('modal-userData');
     let sendUserMessage = document.getElementById('send-user-message');

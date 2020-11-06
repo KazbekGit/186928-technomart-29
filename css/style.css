@@ -155,7 +155,6 @@ a {
 .header-top-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (3fr) [2] (2fr) [2] 3fr;
   grid-template-columns: repeat(2, 3fr) repeat(2, 2fr) 3fr;
   -ms-grid-rows: 42px;
   grid-template-rows: 42px;
@@ -1919,7 +1918,6 @@ a {
   margin: 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [4];
   grid-template-columns: repeat(4, 1fr);
   padding-left: 23px;
   margin-bottom: 54px;
