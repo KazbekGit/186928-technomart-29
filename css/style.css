@@ -1930,7 +1930,6 @@ a {
   padding-left: 12px;
 }
 
-
 .catalog-header .header-cart:hover {
   background-color: var(--red-darker);
 }
@@ -1938,13 +1937,12 @@ a {
 .catalog-header .header-cart:active {
   background-color: var(--red-dark);
 }
-  
-
 
 .user-profile {
   width: 299px;
   height: 45px;
   background-color: var(--white);
+  margin-left: 51px;
 }
 
 .user-name {
@@ -1960,6 +1958,13 @@ a {
   padding-left: 15px;
   padding-right: 14px;
   padding-top: 13px;
+}
+
+.header-bookmarks {
+  width: 163px;
+  height: 42px;
+  padding-top: 9px;
+  box-sizing: border-box;
 }
 
 .user-logout-catalog, .user-icon-catalog {
@@ -2608,6 +2613,7 @@ a {
   margin: 0;
   padding: 0;
   border: none;
+  border-bottom: 1px solid var(--grey-light);
 }
 
 .price-controls {
@@ -2617,6 +2623,7 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .price-controls span {
@@ -2897,7 +2904,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .custom-radio+label:active {
   opacity: .3;
 }
-
 
 .sort {
   -ms-grid-row: 2;
