@@ -2506,6 +2506,7 @@ a {
   height: 38px;
   border-radius: 2px;
   margin-right: 10px;
+  box-sizing: border-box;
 }
 
 .pagination li:first-child {
