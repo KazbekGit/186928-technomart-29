@@ -82,6 +82,7 @@
   --blue-grey: #405069;
   --grey-dustcolor: #B5B5B5;
   --blue: #3bbce3;
+  --blue-lighter-bg: #f2f6f8;
   --black-light-shadow: rgba(0, 0, 0, 0.15);
   --black-darker-shadow: rgba(0, 0, 0, 0.24);
   --blue-black-active: #1d2739;
@@ -93,6 +94,7 @@
   --black-shadow: rgba(0, 0, 0, 0.75);
   --black-transpirant: rgba(0, 0, 0, 0.15);
   --black-light: rgb(0, 0, 0, 0.25);
+  --black-blue-social: #212A3A;
   --green: #63a63e;
   --green-basic: #5fbb2d;
   --green-dark: #367315;
@@ -148,8 +150,9 @@ a {
 .header-top-container {
   display: flex;
   flex-wrap: wrap;
-  height: 42px;
+  min-height: 42px;
   margin-bottom: 46px;
+  position: relative;
 }
 
 .header {
@@ -366,6 +369,7 @@ a {
 .phone-text {
   margin: 5px 45px 8px -4px;
   display: inline-block;
+  vertical-align: middle;
   font-family: Cuprum, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -460,6 +464,7 @@ a {
 
 .submenu a {
   display: inline-block;
+  vertical-align: middle;
   padding-top: 16px;
   padding-bottom: 20px;
   padding-left: 27px;
@@ -540,7 +545,7 @@ a {
 }
 
 .offer-block-info a {
-  display: inline-block;
+  display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 135px;
@@ -724,7 +729,7 @@ a {
   top: 127px;
   left: 29px;
   margin-bottom: 39px;
-  display: inline-block;
+  display: block;
   width: 27px;
   height: 27px;
   border: 3px solid var(--white);
@@ -740,7 +745,7 @@ a {
   top: 127px;
   right: 28px;
   margin-bottom: 39px;
-  display: inline-block;
+  display: block;
   width: 27px;
   height: 27px;
   border: 3px solid var(--white);
@@ -933,7 +938,7 @@ a {
 
 .popular-block:hover {
   background-color: var(--white);
-  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 20px var(--black-light-shadow));
 }
 
 .popular-block:hover .popular-block-img {
@@ -1163,7 +1168,7 @@ a {
 
 .producers-list li:hover {
   -webkit-filter: drop-shadow(0px 4px 20px var(--black-shadow));
-  filter: drop-shadow(0px 4px 20px var(--black-shadow));
+  filter: drop-shadow(0px 4px 20px var(--black-light-shadow));
 }
 
 .popular-producers li:active {
@@ -1235,7 +1240,7 @@ a {
 }
 
 .send-credit-request {
-  display: inline-block;
+  display: block;
   font-size: 14px;
   line-height: 18px;
   color: var(--white);
@@ -1422,11 +1427,11 @@ a {
 .contacts-list li::before {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   width: 25px;
   height: 2px;
   margin: 0;
   margin-right: 12px;
-  vertical-align: middle;
   background-color: var(--red);
 }
 
@@ -1539,6 +1544,7 @@ a {
 .user-name-block, .user-email-block {
   margin: 0;
   display: inline-block;
+  vertical-align: middle;
   width: 220px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1660,8 +1666,9 @@ a {
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-200%, -50%, 0);
   border-top: 7px solid var(--red);
+  animation-duration: '6s'  ;
 }
 
 .close-btn-map {
@@ -1786,6 +1793,18 @@ a {
   background-color: var(--dark-blue);
 }
 
+.social-vk svg,
+.social-fb svg,
+.social-inst svg {
+  fill: var(--black-blue-social);
+}
+
+.social-vk svg:hover,
+.social-fb svg:hover,
+.social-inst svg:hover {
+  fill: var(--red);
+}
+
 .footer-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1908,6 +1927,17 @@ a {
 .mailto a, .html-academy {
   color: var(--orange-light);
 }
+
+.mailto a:hover,
+.developer-site a:hover {
+  text-decoration: underline;
+}
+
+.mailto a:active,
+.developer-site a:active {
+  color: var(--red);
+}
+
 
 .footer .address, .footer .phone {
   font-family: Cuprum, Arial, Helvetica, sans-serif;
@@ -2222,10 +2252,10 @@ a {
 
 .perforators-list li:hover {
   background-color: var(--white);
-  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 20px var(--black-light-shadow));
 }
 
-.perforators-list li:hover .perforator-img {
+.perforators-item:hover .perforator-img {
   visibility: hidden;
 }
 
@@ -2355,7 +2385,7 @@ a {
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
 }
 
-.perforators-list li:hover .buy-or-cart {
+.perforators-item:hover .buy-or-cart {
   visibility: visible;
 }
 
@@ -2600,7 +2630,7 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   color: var(--darker-blue);
-  background-color: #f2f6f8;
+  background-color: var(--blue-lighter-bg);
 }
 
 .all-filters {
@@ -2848,9 +2878,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .produsers-list label::before {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   width: 27px;
   height: 23px;
-  vertical-align: middle;
   margin-right: 8px;
   background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H20C21.65 0 23 1.35 23 3V20C23 21.65 21.65 23 20 23H3C1.35 23 0 21.65 0 20V3C0 1.35 1.35 0 3 0ZM21 3C21 2.458 20.542 2 20 2H3C2.458 2 2 2.458 2 3V20C2 20.542 2.458 21 3 21H20C20.542 21 21 20.542 21 20V3Z' fill='%23C5C5C5'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
@@ -2859,6 +2889,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .custom-checkbox:checked+label::before {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   width: 27px;
   height: 23px;
   background-image: url("data:image/svg+xml,%3Csvg width='27' height='23' viewBox='0 0 27 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.28505 7.48598L4.45605 10.315L12.2391 18.098L26.1711 4.16598L23.3431 1.33698L12.2391 12.439L7.28505 7.48598Z' fill='%23C5C5C5'/%3E%3Cpath d='M21 20C21 20.542 20.542 21 20 21H3C2.458 21 2 20.542 2 20V3C2 2.458 2.458 2 3 2H19.908L21.493 0.415C21.041 0.146542 20.5257 0.00329969 20 0H3C1.35 0 0 1.35 0 3V20C0 21.65 1.35 23 3 23H20C21.65 23 23 21.65 23 20V10.171L21 12.171V20Z' fill='%23C5C5C5'/%3E%3C/svg%3E%0A");
@@ -2959,6 +2990,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .custom-radio+label::before {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   width: 25px;
   height: 25px;
   border: 4px solid var(--grey-dusty);

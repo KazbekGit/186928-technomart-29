@@ -10,7 +10,14 @@ for (let index = 0; index < btns.length; index++) {
 
     modalTypes.forEach(element => {
       element.classList.toggle('visually-hidden');
+      if(element.classList.contains('iframe-map')) {
+        element.style.transform = 'translate3d(-50%, -50%, 0)';
+        element.style.transition = "1s";
+        
+      }
+      
   });
+  
 });
 }
 
